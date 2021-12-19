@@ -228,3 +228,194 @@ INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 
 Checksum: PlaceDB: 9a35c62d ConstDB: 0 ShapeSum: 0 RouteDB: 0
 
 Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:10 . Memory (MB): peak = 4053.238 ; gain = 164.992 ; free physical = 547 ; free virtual = 13244
+Post Restoration Checksum: NetGraph: 681e56ce NumContArr: b2f5141c Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 2.1 Create Timer | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:10 . Memory (MB): peak = 4053.238 ; gain = 164.992 ; free physical = 543 ; free virtual = 13241
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:10 . Memory (MB): peak = 4085.953 ; gain = 197.707 ; free physical = 487 ; free virtual = 13185
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:10 . Memory (MB): peak = 4085.953 ; gain = 197.707 ; free physical = 487 ; free virtual = 13185
+
+Phase 2.4 Global Clock Net Routing
+Phase 2.4 Global Clock Net Routing | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:11 . Memory (MB): peak = 4122.570 ; gain = 234.324 ; free physical = 482 ; free virtual = 13180
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:11 . Memory (MB): peak = 4122.570 ; gain = 234.324 ; free physical = 482 ; free virtual = 13180
+Phase 2 Router Initialization | Checksum: 11b136aea
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:11 . Memory (MB): peak = 4122.570 ; gain = 234.324 ; free physical = 480 ; free virtual = 13178
+
+Phase 3 Initial Routing
+ Number of Nodes with overlaps = 0
+Phase 3 Initial Routing | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 456 ; free virtual = 13159
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+Phase 4.1 Global Iteration 0 | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 456 ; free virtual = 13159
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 456 ; free virtual = 13158
+Phase 4 Rip-up And Reroute | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 456 ; free virtual = 13158
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+Phase 5 Delay and Skew Optimization | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+Phase 6.1 Hold Fix Iter | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+Phase 6 Post Hold Fix | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:13 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13162
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.000857109 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:14 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 455 ; free virtual = 13158
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:14 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 455 ; free virtual = 13158
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:14 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 457 ; free virtual = 13160
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 41bdd74f
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:14 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 460 ; free virtual = 13163
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:14 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 530 ; free virtual = 13233
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+57 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:15 . Memory (MB): peak = 4123.574 ; gain = 235.328 ; free physical = 530 ; free virtual = 13233
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4123.574 ; gain = 0.000 ; free physical = 530 ; free virtual = 13233
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4123.574 ; gain = 0.000 ; free physical = 528 ; free virtual = 13232
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.40 ; elapsed = 00:00:00.13 . Memory (MB): peak = 4123.574 ; gain = 0.000 ; free physical = 524 ; free virtual = 13231
+INFO: [Common 17-1381] The checkpoint '/home/hp/projects/vivado/zcu104_ug1209/Embedded_Design_Tutorial.runs/impl_1/Xilinx_Embedded_Design_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Xilinx_Embedded_Design_wrapper_drc_routed.rpt -pb Xilinx_Embedded_Design_wrapper_drc_routed.pb -rpx Xilinx_Embedded_Design_wrapper_drc_routed.rpx
+Command: report_drc -file Xilinx_Embedded_Design_wrapper_drc_routed.rpt -pb Xilinx_Embedded_Design_wrapper_drc_routed.pb -rpx Xilinx_Embedded_Design_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/hp/projects/vivado/zcu104_ug1209/Embedded_Design_Tutorial.runs/impl_1/Xilinx_Embedded_Design_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file Xilinx_Embedded_Design_wrapper_methodology_drc_routed.rpt -pb Xilinx_Embedded_Design_wrapper_methodology_drc_routed.pb -rpx Xilinx_Embedded_Design_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file Xilinx_Embedded_Design_wrapper_methodology_drc_routed.rpt -pb Xilinx_Embedded_Design_wrapper_methodology_drc_routed.pb -rpx Xilinx_Embedded_Design_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/hp/projects/vivado/zcu104_ug1209/Embedded_Design_Tutorial.runs/impl_1/Xilinx_Embedded_Design_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file Xilinx_Embedded_Design_wrapper_power_routed.rpt -pb Xilinx_Embedded_Design_wrapper_power_summary_routed.pb -rpx Xilinx_Embedded_Design_wrapper_power_routed.rpx
+Command: report_power -file Xilinx_Embedded_Design_wrapper_power_routed.rpt -pb Xilinx_Embedded_Design_wrapper_power_summary_routed.pb -rpx Xilinx_Embedded_Design_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+69 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file Xilinx_Embedded_Design_wrapper_route_status.rpt -pb Xilinx_Embedded_Design_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file Xilinx_Embedded_Design_wrapper_timing_summary_routed.rpt -pb Xilinx_Embedded_Design_wrapper_timing_summary_routed.pb -rpx Xilinx_Embedded_Design_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Xilinx_Embedded_Design_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Xilinx_Embedded_Design_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Xilinx_Embedded_Design_wrapper_bus_skew_routed.rpt -pb Xilinx_Embedded_Design_wrapper_bus_skew_routed.pb -rpx Xilinx_Embedded_Design_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: write_bitstream -force Xilinx_Embedded_Design_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./Xilinx_Embedded_Design_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+88 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 4219.621 ; gain = 0.000 ; free physical = 452 ; free virtual = 13179
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 19 10:23:37 2021...
