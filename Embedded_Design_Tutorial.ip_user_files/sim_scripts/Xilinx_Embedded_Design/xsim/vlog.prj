@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../Embedded_Design_Tutorial.srcs/sources_1/bd/Xilinx_Embedded_Design/ipshared/ec67/hdl" --include "../../../../Embedded_Design_Tutorial.srcs/sources_1/bd/Xilinx_Embedded_Design/ipshared/00a3/hdl" --include "../../../../Embedded_Design_Tutorial.srcs/sources_1/bd/Xilinx_Embedded_Design/ip/Xilinx_Embedded_Design_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../Embedded_Design_Tutorial.srcs/sources_1/bd/Xilinx_Embedded_Design/ip/Xilinx_Embedded_Design_zynq_ultra_ps_e_0_0" \
+"../../../bd/Xilinx_Embedded_Design/ip/Xilinx_Embedded_Design_zynq_ultra_ps_e_0_0/sim/Xilinx_Embedded_Design_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/Xilinx_Embedded_Design/sim/Xilinx_Embedded_Design.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

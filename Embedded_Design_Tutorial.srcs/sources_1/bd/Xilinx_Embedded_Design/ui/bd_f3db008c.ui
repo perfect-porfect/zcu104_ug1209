@@ -1,0 +1,11 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y -10 -defaultsOSRD
+levelinfo -pg 1 0 320 640 -top -100 -bot 180
+"
+}
+{
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
