@@ -36,6 +36,7 @@
 #########
 #System Generator
 #########
+!*.bit
 !*.mdl
 !*.slx
 !*.bxml
